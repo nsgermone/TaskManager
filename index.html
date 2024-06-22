@@ -29,11 +29,12 @@
         <form action="./index.html" method="POST">
           <h2>Create a Task</h2>
           <section class="taskName">
-            <label for="taskName">Task Name</label>
+            <label for="taskName"><sup>Task Name</sup></label> <br />
             <input type="text" name="taskName" id="taskName" />
           </section>
           <section class="taskDescription">
-            <label for="taskDescription">Task Description</label>
+            <label for="taskDescription"><sup>Task Description</sup></label>
+            <br />
             <input type="text" name="taskDescription" id="taskDescription" />
           </section>
           <section class="submission">
@@ -42,15 +43,15 @@
         </form>
       </section>
       <section id="taskBoard">
-        <h2>Board</h2>
-        <ul>
-          <input type="checkbox" id="requests" name="requests" />
-          Requests
-          <input type="checkbox" id="In" name="progr" />
-          In Progress
-          <input type="checkbox" id="completed" name="usrname" />
-          Completed
-        </ul>
+        <h2>Tasks</h2>
+        <input type="checkbox" id="task1" name="task1" />
+        Task 1
+        <br />
+        <input type="checkbox" id="task1" name="task1" />
+        Task 2
+        <br />
+        <input type="checkbox" id="task1" name="task1" />
+        Task 3
       </section>
     </main>
     <hr />
